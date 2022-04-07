@@ -1,0 +1,13 @@
+a = int(input("金"))
+b = int(input("銀"))
+c = int(input("銅"))
+d = int(input("優"))
+list1 = []
+list1.append(a)
+list1.append(b)
+list1.append(c)
+list1.append(d)
+print("金牌得到",list1[0],"面")
+print("銀牌得到",list1[1],"面")
+print("銅牌得到",list1[2],"面")
+print("優等得到",list1[3],"面")
