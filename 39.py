@@ -5,9 +5,7 @@ if n%2>0:
             print(' ',end='')
         for k in range(n+2-i):
             print('x ',end='')
-        print(
-
-        )
+        print()
     for x in range(n-1,0,-2):
         for y in range(n+2-x+1):
             print(" ",end="")
