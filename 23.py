@@ -3,7 +3,7 @@ dx = 0.0001
 x = float(0)
 
 if n < 0:
-    print("")
+    print("X")
 elif n >= 0:
     s = float(0)
     while x < n:
