@@ -1,4 +1,5 @@
-word = ("12345")
+# word = ("12321")
+word = input("請輸入字串")
 if str(word) == str(word)[::-1]:
     print("yes")
 else:
