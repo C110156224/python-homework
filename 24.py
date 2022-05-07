@@ -1,12 +1,12 @@
-# list1 = [[60,50,30],[100,10,90],[80,40,20]]
-list1 = []
-# n = 3
-n = int(input("請輸入陣列大小"))
-for i in range(n):
-    list1.append(input().split( ))
-for z in range(n):
-    for y in range(n):
-        list1[z][y] = int(list1[z][y])
+list1 = [[60,50,30],[100,10,90],[80,40,20]]
+# list1 = []
+n = 3
+# n = int(input("請輸入陣列大小"))
+# for i in range(n):
+#     list1.append(input().split( ))
+# for z in range(n):
+#     for y in range(n):
+#         list1[z][y] = int(list1[z][y])
         # print(type(list1[z][y]))
 max1 = 0
 max2 = 0
@@ -30,9 +30,9 @@ print("最大值為:",max1 + max2 + max3)
 for e in range(n):
     for f in range(n):
         if list1[e][f] == max1:
-            max1place = [str(e+1),str(f+1)]
+            max1place = str("(")+str(e+1)+str(",")+str(f+1)+str(")")
         if list1[e][f] == max2:
-            max2place = [str(e+1),str(f+1)]
+            max2place = str("(")+str(e+1)+str(",")+str(f+1)+str(")")
         if list1[e][f] == max3:
-            max3place = [str(e+1),str(f+1)]
-print("位置為(",",".join(max1place),"),(",",".join(max2place),"),(",",".join(max3place),")")
+            max3place = str("(")+str(e+1)+str(",")+str(f+1)+str(")")
+print("位置為"+max1place+max2place+max3place)
