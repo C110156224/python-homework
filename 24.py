@@ -1,12 +1,12 @@
-list1 = [[60,50,30],[100,10,90],[80,40,20]]
-# list1 = []
-n = 3
-# n = int(input("請輸入陣列大小"))
-# for i in range(n):
-#     list1.append(input().split( ))
-# for z in range(n):
-#     for y in range(n):
-#         list1[z][y] = int(list1[z][y])
+# list1 = [[60,50,30],[100,10,90],[80,40,20]]
+list1 = []
+# n = 3
+n = int(input("請輸入陣列大小"))
+for i in range(n):
+    list1.append(input().split( ))
+for z in range(n):
+    for y in range(n):
+        list1[z][y] = int(list1[z][y])
         # print(type(list1[z][y]))
 max1 = 0
 max2 = 0
