@@ -16,5 +16,5 @@ for i in range(len(list1)):
             x = list1[j]
             list1[j]= list1[j+1]
             list1[j+1] = x
-print("最大的3個數字為:",list1[0],list1[1],list1[2])
-print("最小的3個數字為:",list1[7],list1[8],list1[9])
+print("最大的3個數字為:"+str(list1[0])+","+str(list1[1])+","+str(list1[2]))
+print("最小的3個數字為:"+str(list1[7])+","+str(list1[8])+","+str(list1[9]))
