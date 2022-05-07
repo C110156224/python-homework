@@ -12,9 +12,9 @@ if d < 0:
     print("無解")
 elif d == 0:
     x1 = ((-b) + d**0.5)/2*a
-    print("x =",x1)
+    print("x ="+str(x1))
 elif d > 0:
     x1 = ((-b) + d**0.5)/2*a
     x2 = ((-b) - d**0.5)/2*a
-    print("x =",x1)
-    print("x =",x2)
+    print("x="+str(x1))
+    print("x="+str(x2))
