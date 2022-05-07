@@ -15,6 +15,4 @@ for x in range(a):
     x1 = c[x]
     big = x1[0] * 250
     small = x1[1] * 175
-    print("第",x+1,"組應收費用為:",big+small)
-    
-        
+    print("第"+str(x+1)+"組應收費用為:"+str(big+small))
