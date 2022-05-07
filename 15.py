@@ -5,4 +5,4 @@ for i in x:
     y.append(((int(i)+7)%10))
 z = [str(y[2]),str(y[3]),str(y[0]),str(y[1])]
 strZ ="".join(z)
-print("加密後數字為",strZ)
+print("加密後數字為"+str(strZ))
