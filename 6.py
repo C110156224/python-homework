@@ -15,5 +15,4 @@ for n in range(len(a)-1,-1,-1):
     a3.append(str(a[n]))
 max = int("".join(a2))
 min = int("".join(a3))
-print("最大值數列與最小值數列差值為:",max-min)
-
+print("最大值數列與最小值數列差值為:"+str(max-min))
