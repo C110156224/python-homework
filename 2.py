@@ -12,7 +12,7 @@ elif a <= 700:
     summer = 120*2.10+(330-120)*3.02+(500-330)*4.39+(a-500)*4.97
     nonsummer = 120*2.10+(330-120)*2.68+(500-330)*3.61+(a-500)*4.01
 else:
-    summer = 120*2.10+(330-120)*3.02+(500-330)*4.39(700-500)*4.97+(a-700)*5.63
+    summer = 120*2.10+(330-120)*3.02+(500-330)*4.39+(700-500)*4.97+(a-700)*5.63
     nonsummer = 120*2.10+(330-120)*2.68+(500-330)*3.61+(700-500)*4.01+(a-700)*4.50
-print("Summer months:",summer)
-print("Non-Summer months:",nonsummer)
+print("Summer months:"+str(summer))
+print("Non-Summer months:"+str(nonsummer))
