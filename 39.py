@@ -1,4 +1,5 @@
 n = int(input("輸入整數"))
+# n = 7
 if n%2>0:
     for i in range(n+1,0,-2):
         for j in range(i):
@@ -18,9 +19,7 @@ if n%2<1:
             print(' ',end='')
         for k in range(n-i+1):
             print('x ',end='')
-        print(
-
-        )
+        print()
     for x in range(n-1,0,-2):
         for y in range(n+2-x+1):
             print(" ",end="")
