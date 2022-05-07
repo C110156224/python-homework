@@ -1,5 +1,5 @@
-# n = int(input("輸入整數n(0<n<1,000,000)"))
-n = 22
+n = int(input("輸入整數n(0<n<1,000,000)"))
+# n = 22
 listn = []
 listn.append(n)
 
@@ -19,5 +19,5 @@ else:
 x = ""
 for i in range(len(listn)):
     x += str(listn[i]) + " "
-print("數列:",x)
-print("cycle length:",len(listn))
+print("數列:"+str(x))
+print("cycle length:"+str(len(listn)))
