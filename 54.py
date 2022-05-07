@@ -9,4 +9,4 @@ elif km > 1.5:
         price = 75 + x*5 + 5
     else:
         price = 75 + x*5
-print ("所需車資為:",int(price))
+print ("所需車資為:"+str(int(price)))
