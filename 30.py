@@ -13,4 +13,4 @@ for j in range(len(ans)):
         for k in range(len(ans)):
             if use[j] == ans[k]:
                 b += 1
-print(a,"A",b,"B")
+print(str(a)+"A"+str(b)+"B")
