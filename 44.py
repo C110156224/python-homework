@@ -8,4 +8,4 @@ max = 0
 for j in range(T):
     if listT[j] > max:
         max = listT[j]
-print("須購買的電腦數量:",max)
+print("須購買的電腦數量:"+str(max))
