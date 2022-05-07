@@ -7,4 +7,4 @@ while sum < m:
     n = n + 1
     for i in range(1, n):
         sum *= i
-print("超過M為",m,"的最小階層N值為",n-1)
+print("超過M為"+str(m)+"的最小階層N值為:"+str(n-1))
