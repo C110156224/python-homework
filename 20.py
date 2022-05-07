@@ -1,4 +1,5 @@
-a = 3
+a = int(input("組數為:"))
+# a = 3
 s = []
 for i in range(a):
     s.append(input("第"+str(i+1)+"組").split(" "))
