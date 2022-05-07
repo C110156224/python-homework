@@ -1,9 +1,11 @@
-a = ("124315421345124")
-b = ("124331243154312")
+# a = ("124315421345124")
+# b = ("124331243154312")
+a = input("甲方的數字")
+b = input("乙方的數字")
 lista = []
 listb = []
 final = []
-test = []
+
 rule = [["1","5"],["2","1"],["3",'2'],["4","3"],["5","4"]]
 for i in a:
     lista.append(int(i))
@@ -46,6 +48,11 @@ for k in range(len(lista)):
             final.append("輸")
         else:
             final.append("和")
+ans = ""
+for l in final:
+    ans += l
+print("洗刷刷結果:"+str(ans))
+
 
 
 
