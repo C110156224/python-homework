@@ -15,6 +15,6 @@ for i in range(len(list1)):
                 list1[j+1]=x
 max = list1[0]
 min = list1[4]
-print("平均分數:",'%.2f'%a)
-print("最高分科目:",grade[max],max)
-print("最低分科目:",grade[min],min)
+print("平均分數:%.2f"%a+str("分"))
+print("最高分科目:"+str(grade[max])+str(max)+str("分"))
+print("最低分科目:"+str(grade[min])+str(min)+str("分"))
