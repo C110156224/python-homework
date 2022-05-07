@@ -1,4 +1,5 @@
-x = str(1234) #str(input("請輸入一組四位數字"))
+# x = str(1234)
+x = str(input("請輸入一組四位數字"))
 y = []
 for i in x:
     y.append(((int(i)+7)%10))
