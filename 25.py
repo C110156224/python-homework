@@ -25,4 +25,4 @@ for m in range(p):
         total = grade[n] * twoagain[n]
         totalagain += total
         ans = totalagain/p
-print("%.2f"%ans)
+print("全班的總平均為:%.2f"%ans)
